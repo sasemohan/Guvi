@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+int n,sum,tem;
+printf("enter the nunber of values to be added");
+scanf("%d",&n);
+for(int i=0;i<n;i++)
+{
+printf("enter the number to be added or enter 0 to quit");
+scanf("%d",&tem);
+sum=sumn+tem;
+if(tem==0)
+{
+exit(0);
+}
+}
+}
