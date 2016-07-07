@@ -1,12 +1,13 @@
 #include<stdio.h>
 void main()
 {
-int a,tem,res;
-printf("enter an randon numeric value");
+int a=0,tem=0,res=0;
+printf("enter an random numeric value");
 scanf("%d",&a);
-do{
+while(a!=0){
 tem=a%10;
-tem=tem/10;
 res=res*10+tem;
-}while(tem!=0)
+a=a/10;
+}
+printf("REVERSED %d",res)
 }
